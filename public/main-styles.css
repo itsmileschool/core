@@ -1,0 +1,168 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    padding: 0;
+    margin: 0;
+}
+.ee-container
+{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.web-app-name
+{
+    font-family: FiraCode-Light, sans-serif;
+    font-size: 32px;
+    color: #CD5475;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.menu-item:hover
+{
+    color: #CD5475 !important;
+}
+.menu-item
+{
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+
+.description-title
+{
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+}
+.description
+{
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    color: #676767;
+    text-align: center;
+}
+
+.sub-menu-item
+{
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 28px;
+    color: #808080;
+    text-align: center;
+}
+.ee-content
+{
+    margin-top: 3%;
+    width: 100%;
+}
+.ee-header
+{
+    position: fixed;
+    -webkit-backdrop-filter: saturate(180%) blur(16px);
+    backdrop-filter: saturate(180%) blur(16px);
+    background: rgba(20, 20, 20, .7);
+    width: 100%;
+}
+#logo
+{
+    display: block;
+    width: 380px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo > img
+{
+
+}
+.top-main-splash
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#topMainSplash
+{
+    display: block;
+    width: 100%;
+}
+.header-menu-items-container
+{
+    max-width: 1179px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-menu-item
+{
+    font-family: FiraCode-Light, sans-serif;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #ffffff;
+    height: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 900px) {
+    #logo {
+        width: 200px;
+        height: 200px;
+    }
+    .menu-item
+    {
+        color: #CD5475;
+        font-size: 16px;
+    }
+    .description-title
+    {
+        font-family: FiraCode-Light, sans-serif;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+        color: #333333;
+        text-align: center;
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+    .description
+    {
+        font-family: FiraCode-Light, sans-serif;
+        padding-top: 8px;
+        padding-bottom: 32px;
+        font-size: 14px;
+        color: #676767;
+        text-align: center;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .web-app-name
+    {
+        font-size: 26px;
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+}
