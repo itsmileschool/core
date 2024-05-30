@@ -24,7 +24,7 @@ a
 .web-app-name
 {
     font-family: FiraCode-Light, sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     color: #CD5475;
     text-align: center;
     padding-top: 16px;
@@ -32,18 +32,35 @@ a
 }
 .menu-item:hover
 {
-    color: #CD5475 !important;
+    background-color: #ff836c !important;
 }
 .menu-item
 {
     font-family: FiraCode-Light, sans-serif;
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 18px;
-    color: #333333;
+    max-width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    font-size: 24px !important;
+    color: #ffffff;
     text-align: center;
+    background-color: #CD5475;
+    border-radius: 128px;
 }
-
+.description-title > h1
+{
+    font-size: 26px !important;
+    font-family: FiraCode-Light, sans-serif;
+    font-weight: lighter;
+}
+.description > h2
+{
+    font-size: 18px !important;
+    font-family: FiraCode-Light, sans-serif;
+    font-weight: lighter;
+}
 .description-title
 {
     font-family: FiraCode-Light, sans-serif;
@@ -93,8 +110,47 @@ a
     margin-left: auto;
     margin-right: auto;
 }
+.prompt-img
+{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+}
+.prompt-contacts
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prompt-contacts > a
+{
+    display: inline-flex;
+}
+.prompt-contact-icon
+{
+    display: block;
+    width: 48px;
+    height: 48px;
 
-
+}
+.prompt-desc
+{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: #333333;
+}
+.prompt-row
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .logo > img
 {
 
@@ -132,11 +188,7 @@ a
         width: 200px;
         height: 200px;
     }
-    .menu-item
-    {
-        color: #CD5475;
-        font-size: 16px;
-    }
+
     .description-title
     {
         font-family: FiraCode-Light, sans-serif;
@@ -165,4 +217,5 @@ a
         padding-right: 64px;
         padding-left: 64px;
     }
+
 }

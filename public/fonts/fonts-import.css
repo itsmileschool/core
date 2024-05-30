@@ -36,3 +36,8 @@
     font-family: FiraCode-Medium;
     src: url(FiraCode-Medium.ttf);
 }
+@font-face
+{
+    font-family: FiraCode-Semibold;
+    src: url(FiraCode-SemiBold.ttf);
+}
