@@ -34,6 +34,12 @@ a
 {
     background-color: #ff836c !important;
 }
+
+.menu-item-bottom:hover
+{
+    background-color: #CD5475 !important;
+}
+
 .menu-item
 {
     font-family: FiraCode-Light, sans-serif;
@@ -48,6 +54,35 @@ a
     text-align: center;
     background-color: #CD5475;
     border-radius: 128px;
+}
+.bottom-title > h3
+{
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px !important;
+    color: #CD5475;
+    text-align: center;
+}
+.menu-item-bottom
+{
+    font-family: FiraCode-Light, sans-serif;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    font-size: 20px !important;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff836c;
+    border-radius: 128px;
+}
+.bottom-contacts
+{
+    margin-top: 72px;
+    margin-bottom: 72px;
 }
 .description-title > h1
 {
